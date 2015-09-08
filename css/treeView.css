@@ -17,29 +17,58 @@ ul {
     text-decoration: none;
     text-align: center;
     min-width: 160px;
-    padding: 5px 20px;
+    line-height: 30px;
     color: #343434;
+    display: inline-block;
+}
+.firstMenu>a:hover,
+.firstMenu>a:active{
+    color: white;
+    background: #3284a7;
+}
+.open>a:hover em,
+.firstMenu>a:hover em,
+.firstMenu>a:active em{
+    background-position: -15px -8px !important;
+}
+.open>a em{
+    background-position: -7px -8px !important;
+}
+.firstMenu>a{
     border: 1px solid lightgray;
     background: #f9f9f9;
     border-radius: 4px;
-    display: inline-block;
-}
-.secondMenu{
-    position: relative;
-    left: 20px;
 }
 .secondMenu>a{
-    margin-top: 1px;
-    border-radius: 0;
-    background: #bcddf1;
-    min-width: 150px;
-    padding: 5px 15px;
+    text-align: left;
+    margin-top: 2px;
+    text-indent: 40px;
+    background: #f9f9f9;
+    position: relative;
 }
-.firstMenu em{
+.secondMenu>a em{
     position: absolute;
-    font-weight: bolder;
-    left: 5px;
+    background: url("../images/dbIcon.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    z-index: 10;
+    left: 10px;
+    top: 10px;
+}
+.secondMenu>a:hover{
+    background: #bcddf1;
+}
+
+
+.firstMenu>a em{
+    position: absolute;
+    left: 10px;
+    top: 10px;
     font-style: normal;
+    background-image:url("../images/arrow.png");
+    background-position: -1px -8px;
+    width: 8px;
+    height: 8px;
 }
 .none{
     display: none;
