@@ -1,0 +1,46 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+.firstMenu{
+    position: relative;
+}
+.secondMenu>a,
+.firstMenu>a{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    min-width: 160px;
+    padding: 5px 20px;
+    color: #343434;
+    border: 1px solid lightgray;
+    background: #f9f9f9;
+    border-radius: 4px;
+    display: inline-block;
+}
+.secondMenu{
+    position: relative;
+    left: 20px;
+}
+.secondMenu>a{
+    margin-top: 1px;
+    border-radius: 0;
+    background: #bcddf1;
+    min-width: 150px;
+    padding: 5px 15px;
+}
+.firstMenu em{
+    position: absolute;
+    font-weight: bolder;
+    left: 5px;
+    font-style: normal;
+}
+.none{
+    display: none;
+}

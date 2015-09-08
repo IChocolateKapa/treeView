@@ -3,44 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>二级树形结构测试</title>
-    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/treeView.css"/>
     <script src="js/jquery-2.1.3.min.js"></script>
-    <style>
-        .container{
-            width: 200px;
-            margin: 0 auto;
-        }
-        .firstMenu{
-            position: relative;
-        }
-        .secondMenu>a,
-        .firstMenu>a{
-            text-align: center;
-            min-width: 160px;
-            padding: 5px 20px;
-            color: #343434;
-            border: 1px solid lightgray;
-            background: #f9f9f9;
-            border-radius: 4px;
-            display: inline-block;
-        }
-        .secondMenu{
-            position: relative;
-            left: 20px;
-        }
-        .secondMenu>a{
-            margin-top: 1px;
-            border-radius: 0;
-            background: #bcddf1;
-            min-width: 150px;
-            padding: 5px 15px;
-        }
-        .firstMenu em{
-            font-weight: bolder;
-            left: 5px;
-        }
-    </style>
-
     <script>
         $(function(){
             $(".firstMenu").click(function(){
@@ -59,11 +23,11 @@
     </script>
 </head>
 <body>
-<div class="pr container">
+<div class="container">
     <ul>
         <li class="firstMenu">
-            <a href="#" class="pr">
-                <em class="pa">+</em>
+            <a href="#">
+                <em>+</em>
                 <span>房产组</span>
             </a>
             <ul class="none">
@@ -72,8 +36,8 @@
             </ul>
         </li>
         <li class="firstMenu">
-            <a href="#" class="pr">
-                <em class="pa">+</em>
+            <a href="#">
+                <em>+</em>
                 <span>汽车组</span>
             </a>
             <ul class="none">
