@@ -1,5 +1,5 @@
 /**
- * Created by 58 on 2015/9/8.
+ * Created by Echo on 2015/9/8.
  */
 
 
@@ -28,9 +28,5 @@ $(function(){
 })
 
 function showTest(){
-    var aHtml = "";
-    for(var i = 0; i < 5; i++){
-        aHtml += "<a href='#'>o_comp_long_short" + i*Math.random(20) + "</a>";
-    }
-    $(".hp-dataset .dataList").html(aHtml);
+    console.log("click")
 }
